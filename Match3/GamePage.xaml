@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Match3.GamePage"
+             xmlns:cells="clr-namespace:Match3.Cells">
+    <Grid>
+        <Rectangle HorizontalOptions="Fill"
+                   VerticalOptions="Fill" 
+                   Fill="{StaticResource Gray900}" />
+    
+        <AbsoluteLayout  x:Name="GameView"
+              HorizontalOptions="Fill"
+              VerticalOptions="Fill"
+              Shell.NavBarIsVisible="False">
+            
+        </AbsoluteLayout>
+    </Grid>
+</ContentPage>

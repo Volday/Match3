@@ -1,0 +1,341 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Nerazim\\source\\repos\\Match3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\game\\rocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\game\\rocket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\game\\destroyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\game\\destroyer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\game\\element.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\game\\element.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\viewmodel\\gamepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\viewmodel\\gamepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\game\\gameboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\game\\gameboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\game\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\game\\destroyerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\game\\destroyerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\game\\destroyerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\game\\destroyerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\game\\elementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\game\\elementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\game\\elementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\game\\elementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\game\\bomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\game\\bomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\game\\infoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\game\\infoview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\game\\infoview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\game\\infoview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\game\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\game\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\core\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\core\\gameloop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\game\\gameboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\game\\gameboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\game\\gameboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\game\\gameboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|c:\\users\\nerazim\\source\\repos\\match3\\match3\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9929CA34-0403-4C72-B46C-D5E061514B40}|Match3\\Match3.csproj|solutionrelative:match3\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Rocket.cs",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\Rocket.cs",
+              "RelativeDocumentMoniker": "Match3\\Game\\Rocket.cs",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\Rocket.cs",
+              "RelativeToolTip": "Match3\\Game\\Rocket.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowBkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T07:37:53.358Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Destroyer.cs",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\Destroyer.cs",
+              "RelativeDocumentMoniker": "Match3\\Game\\Destroyer.cs",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\Destroyer.cs",
+              "RelativeToolTip": "Match3\\Game\\Destroyer.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAQwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T08:06:09.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DestroyerView.xaml",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\DestroyerView.xaml",
+              "RelativeDocumentMoniker": "Match3\\Game\\DestroyerView.xaml",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\DestroyerView.xaml",
+              "RelativeToolTip": "Match3\\Game\\DestroyerView.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-23T08:07:15.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ElementView.xaml",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\ElementView.xaml",
+              "RelativeDocumentMoniker": "Match3\\Game\\ElementView.xaml",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\ElementView.xaml",
+              "RelativeToolTip": "Match3\\Game\\ElementView.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-22T15:27:44.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ElementView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\ElementView.xaml.cs",
+              "RelativeDocumentMoniker": "Match3\\Game\\ElementView.xaml.cs",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\ElementView.xaml.cs",
+              "RelativeToolTip": "Match3\\Game\\ElementView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T15:27:59.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Element.cs",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\Element.cs",
+              "RelativeDocumentMoniker": "Match3\\Game\\Element.cs",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\Element.cs",
+              "RelativeToolTip": "Match3\\Game\\Element.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAQwC4AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T15:35:18.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DestroyerView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\DestroyerView.xaml.cs",
+              "RelativeDocumentMoniker": "Match3\\Game\\DestroyerView.xaml.cs",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\DestroyerView.xaml.cs",
+              "RelativeToolTip": "Match3\\Game\\DestroyerView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T08:07:24.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GamePageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\ViewModel\\GamePageViewModel.cs",
+              "RelativeDocumentMoniker": "Match3\\ViewModel\\GamePageViewModel.cs",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\ViewModel\\GamePageViewModel.cs",
+              "RelativeToolTip": "Match3\\ViewModel\\GamePageViewModel.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAIA5wDEAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T08:34:48.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GameBoard.cs",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\GameBoard.cs",
+              "RelativeDocumentMoniker": "Match3\\Game\\GameBoard.cs",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\GameBoard.cs",
+              "RelativeToolTip": "Match3\\Game\\GameBoard.cs",
+              "ViewState": "AQIAANwCAAAAAAAAAIAwwOoCAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T19:20:16.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\GameManager.cs",
+              "RelativeDocumentMoniker": "Match3\\Game\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\GameManager.cs",
+              "RelativeToolTip": "Match3\\Game\\GameManager.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T06:40:01.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Match3\\MauiProgram.cs",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\MauiProgram.cs",
+              "RelativeToolTip": "Match3\\MauiProgram.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T17:16:53.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InfoView.xaml",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\InfoView.xaml",
+              "RelativeDocumentMoniker": "Match3\\Game\\InfoView.xaml",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\InfoView.xaml",
+              "RelativeToolTip": "Match3\\Game\\InfoView.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-23T03:30:54.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Bomb.cs",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\Bomb.cs",
+              "RelativeDocumentMoniker": "Match3\\Game\\Bomb.cs",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\Bomb.cs",
+              "RelativeToolTip": "Match3\\Game\\Bomb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T05:46:34.919Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "InfoView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\InfoView.xaml.cs",
+              "RelativeDocumentMoniker": "Match3\\Game\\InfoView.xaml.cs",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\InfoView.xaml.cs",
+              "RelativeToolTip": "Match3\\Game\\InfoView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T06:07:34.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Info.cs",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\Info.cs",
+              "RelativeDocumentMoniker": "Match3\\Game\\Info.cs",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\Info.cs",
+              "RelativeToolTip": "Match3\\Game\\Info.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-23T06:08:51.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GameLoop.cs",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Core\\GameLoop.cs",
+              "RelativeDocumentMoniker": "Match3\\Core\\GameLoop.cs",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Core\\GameLoop.cs",
+              "RelativeToolTip": "Match3\\Core\\GameLoop.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAADgv30AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-22T00:48:23.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GameBoardView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\GameBoardView.xaml.cs",
+              "RelativeDocumentMoniker": "Match3\\Game\\GameBoardView.xaml.cs",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\GameBoardView.xaml.cs",
+              "RelativeToolTip": "Match3\\Game\\GameBoardView.xaml.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAADwvxIAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T21:46:19.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GameBoardView.xaml",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\GameBoardView.xaml",
+              "RelativeDocumentMoniker": "Match3\\Game\\GameBoardView.xaml",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\Game\\GameBoardView.xaml",
+              "RelativeToolTip": "Match3\\Game\\GameBoardView.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-07-19T21:08:15.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "Match3\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Nerazim\\source\\repos\\Match3\\Match3\\MainPage.xaml.cs",
+              "RelativeToolTip": "Match3\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-19T12:50:25.36Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Match3.Game.GameOverView" InputTransparent="False">
+    <Grid ZIndex="201">
+        <Frame ZIndex="2001"
+               HorizontalOptions="Center"
+               VerticalOptions="Center"
+               BackgroundColor="{StaticResource Gray600}">
+            <VerticalStackLayout ZIndex="201">
+                <Label Padding="50, 20, 50, 20"
+                       ZIndex="201"
+                    Text="Game Over"
+                    VerticalOptions="Center" 
+                    HorizontalOptions="Center" />
+                <Button Text="OK" 
+                        Clicked="OkClicked"
+                        ZIndex="201"/>
+            </VerticalStackLayout>
+        </Frame>
+    </Grid>
+</ContentView>

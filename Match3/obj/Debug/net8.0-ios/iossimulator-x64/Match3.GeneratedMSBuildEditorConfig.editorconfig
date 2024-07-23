@@ -1,0 +1,83 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Match3
+build_property.ProjectDir = C:\Users\Nerazim\source\repos\Match3\Match3\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/Nerazim/source/repos/Match3/Match3/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Match3.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/Nerazim/source/repos/Match3/Match3/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Match3.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/Nerazim/source/repos/Match3/Match3/GamePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Match3.GamePage.xaml
+build_metadata.AdditionalFiles.TargetPath = GamePage.xaml
+build_metadata.AdditionalFiles.RelativePath = GamePage.xaml
+
+[C:/Users/Nerazim/source/repos/Match3/Match3/Game/DestroyerView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Match3.Game.DestroyerView.xaml
+build_metadata.AdditionalFiles.TargetPath = Game\DestroyerView.xaml
+build_metadata.AdditionalFiles.RelativePath = Game\DestroyerView.xaml
+
+[C:/Users/Nerazim/source/repos/Match3/Match3/Game/ElementView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Match3.Game.ElementView.xaml
+build_metadata.AdditionalFiles.TargetPath = Game\ElementView.xaml
+build_metadata.AdditionalFiles.RelativePath = Game\ElementView.xaml
+
+[C:/Users/Nerazim/source/repos/Match3/Match3/Game/GameBoardView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Match3.Game.GameBoardView.xaml
+build_metadata.AdditionalFiles.TargetPath = Game\GameBoardView.xaml
+build_metadata.AdditionalFiles.RelativePath = Game\GameBoardView.xaml
+
+[C:/Users/Nerazim/source/repos/Match3/Match3/Game/GameOverView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Match3.Game.GameOverView.xaml
+build_metadata.AdditionalFiles.TargetPath = Game\GameOverView.xaml
+build_metadata.AdditionalFiles.RelativePath = Game\GameOverView.xaml
+
+[C:/Users/Nerazim/source/repos/Match3/Match3/Game/InfoView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Match3.Game.InfoView.xaml
+build_metadata.AdditionalFiles.TargetPath = Game\InfoView.xaml
+build_metadata.AdditionalFiles.RelativePath = Game\InfoView.xaml
+
+[C:/Users/Nerazim/source/repos/Match3/Match3/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Match3.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/Nerazim/source/repos/Match3/Match3/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Match3.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/Nerazim/source/repos/Match3/Match3/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Match3.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
