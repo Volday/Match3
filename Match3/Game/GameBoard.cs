@@ -17,17 +17,10 @@ namespace Match3.Game
     public class GameBoard : GameObject
     {
         private GameBoardView gameBoardView;
-        private Random random;
 
         private Info scoreInfo;
 
         private Element[,] elements;
-
-        private Color emerald;
-        private Color piterRiver;
-        private Color amethyst;
-        private Color sunflower;
-        private Color alizarin;
 
         public Action<int>? onEliminate;
 
@@ -74,36 +67,9 @@ namespace Match3.Game
 
             firstSelection = new Vector2(-1, -1);
             state = State.Idle;
-            random = new Random();
             childrens = new List<GameObject>();
             detonationQueue = new List<Bomb>();
             detonationPositions = new List<Vector2>();
-
-            SetupColors();
-        }
-
-        private void SetupColors()
-        {
-            if (App.Current.Resources.TryGetValue("Emerald", out var Emerald))
-            {
-                emerald = (Color)Emerald;
-            }
-            if (App.Current.Resources.TryGetValue("PiterRiver", out var PiterRiver))
-            {
-                piterRiver = (Color)PiterRiver;
-            }
-            if (App.Current.Resources.TryGetValue("Amethyst", out var Amethyst))
-            {
-                amethyst = (Color)Amethyst;
-            }
-            if (App.Current.Resources.TryGetValue("Sunflower", out var Sunflower))
-            {
-                sunflower = (Color)Sunflower;
-            }
-            if (App.Current.Resources.TryGetValue("PastelGray1", out var Alizarin))
-            {
-                alizarin = (Color)Alizarin;
-            }
         }
 
         public override void Update(float deltaTime)
@@ -503,7 +469,7 @@ namespace Match3.Game
                     var element = elements[x, y];
                     if (element != null) continue;
 
-                    var typeId = random.Next(0, 5);
+                    var typeId = GameRandom.Random.Next(0, 5);
                     elements[x, y] = CreteElement(typeId);
                     elements[x, y].size = size / GridSize;
                     var newPosition = Position + elements[x, y].size * new Vector2(x, y);
@@ -516,7 +482,7 @@ namespace Match3.Game
         private void SwapElements(Vector2 first, Vector2 second)
         {
             state = State.Swapping;
-            
+
             var firstElement = elements[(int)first.X, (int)first.Y];
             var secondElement = elements[(int)second.X, (int)second.Y];
 
@@ -626,136 +592,30 @@ namespace Match3.Game
                 }
             }
 
-            var typeId = possibleId[random.Next(0, possibleId.Count)];
+            var typeId = possibleId[GameRandom.Random.Next(0, possibleId.Count)];
             return CreteElement(typeId);
         }
 
+        //To Remove
         private Element CreteElement(int elementTypeId)
         {
-            var element = Element.GetGameObject<Element>();
-            element.elementTypeId = elementTypeId;
-            if (element.elementTypeId == 0)
-            {
-                element.color = emerald;
-                element.textIdle = "(︶︹︺)";
-                element.textSelected = "(￣ヘ￣)";
-                element.textFall = "(＞﹏＜)";
-                element.fontSize = 16;
-            }
-            else if (element.elementTypeId == 1)
-            {
-                element.color = piterRiver;
-                element.textIdle = "(＃￣ω￣)";
-                element.textSelected = "(＃￣0￣)";
-                element.textFall = "(＃＞＜)";
-                element.fontSize = 14;
-            }
-            else if (element.elementTypeId == 2)
-            {
-                element.color = amethyst;
-                element.textIdle = "Σ(°△°|||)︴";
-                element.textSelected = "＼(º □ º l|l)/";
-                element.textFall = "〣( ºΔº )〣";
-                element.fontSize = 11;
-            }
-            else if (element.elementTypeId == 3)
-            {
-                element.color = sunflower;
-                element.textIdle = "ヽ(´ー` )┌";
-                element.textSelected = "ヽ(ˇヘˇ)ノ";
-                element.textFall = "¯\\_(ツ)_/¯";
-                element.fontSize = 16;
-            }
-            else if (element.elementTypeId == 4)
-            {
-                element.color = alizarin;
-                element.textIdle = "(・_・;)";
-                element.textSelected = "(・_・ヾ";
-                element.textFall = "(・・ ) ?";
-                element.fontSize = 16;
-            }
+            var element = ElementFactory.CreteElement(elementTypeId);
             childrens.Add(element);
             return element;
         }
 
         private Bomb CreateBomb(int elementTypeId)
         {
-            var bomb = Bomb.GetGameObject<Bomb>();
-            bomb.elementTypeId = elementTypeId;
-            if (bomb.elementTypeId == 0)
-            {
-                bomb.color = emerald;
-            }
-            else if (bomb.elementTypeId == 1)
-            {
-                bomb.color = piterRiver;
-            }
-            else if (bomb.elementTypeId == 2)
-            {
-                bomb.color = amethyst;
-            }
-            else if (bomb.elementTypeId == 3)
-            {
-                bomb.color = sunflower;
-            }
-            else if (bomb.elementTypeId == 4)
-            {
-                bomb.color = alizarin;
-            }
-            bomb.textIdle = "⦿";
-            bomb.textSelected = "⦿";
-            bomb.textFall = "⦿";
-            bomb.detonationText = "💥";
-            bomb.fontSize = 38;
+            var bomb = ElementFactory.CreateBomb(elementTypeId);
             childrens.Add(bomb);
-            bomb.readyToDetonate = null;
             bomb.readyToDetonate += OnReadyToDetonate;
             return bomb;
         }
 
         private Rocket CreateRocket(int elementTypeId)
         {
-            var rocket = Rocket.GetGameObject<Rocket>();
-            rocket.elementTypeId = elementTypeId;
-            if (rocket.elementTypeId == 0)
-            {
-                rocket.color = emerald;
-            }
-            else if (rocket.elementTypeId == 1)
-            {
-                rocket.color = piterRiver;
-            }
-            else if (rocket.elementTypeId == 2)
-            {
-                rocket.color = amethyst;
-            }
-            else if (rocket.elementTypeId == 3)
-            {
-                rocket.color = sunflower;
-            }
-            else if (rocket.elementTypeId == 4)
-            {
-                rocket.color = alizarin;
-            }
-            if(random.Next(0, 2) == 0)
-            {
-                rocket.direction = Direction.Y;
-                rocket.textIdle = "⇕";
-                rocket.textSelected = "⇕";
-                rocket.textFall = "⇕";
-                rocket.destroyerBackwards = "⇓";
-                rocket.destroyerForward = "⇑";
-            }
-            else 
-            {
-                rocket.direction = Direction.X;
-                rocket.textIdle = "⇔";
-                rocket.textSelected = "⇔";
-                rocket.textFall = "⇔";
-                rocket.destroyerBackwards = "⇐";
-                rocket.destroyerForward = "⇒";
-            }
-            rocket.fontSize = 32;
+            var direction = (GameRandom.Random.Next(0, 2) % 2 == 0) ? Direction.X : Direction.Y;
+            var rocket = ElementFactory.CreateRocket(elementTypeId, direction);
             childrens.Add(rocket);
             return rocket;
         }

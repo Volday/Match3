@@ -64,40 +64,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Update="Game\GameBoardView.xaml.cs">
-	    <DependentUpon>GameBoardView.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Game\ElementView.xaml.cs">
-	    <DependentUpon>ElementView.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Game\GameOverView.xaml.cs">
-	    <DependentUpon>GameOverView.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Game\InfoView.xaml.cs">
-	    <DependentUpon>InfoView.xaml</DependentUpon>
-	  </Compile>
-	  <Compile Update="Game\DestroyerView.xaml.cs">
-	    <DependentUpon>DestroyerView.xaml</DependentUpon>
-	  </Compile>
-	</ItemGroup>
-
-	<ItemGroup>
-	  <MauiXaml Update="Game\GameBoardView.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="GamePage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Game\ElementView.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Game\GameOverView.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Game\InfoView.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="Game\DestroyerView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

@@ -10,7 +10,6 @@ namespace Match3.Game
 {
     public class Rocket : Element
     {
-        public enum Direction { X, Y }
         public Direction direction;
         public bool activated = false;
 
